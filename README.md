@@ -4,6 +4,6 @@
 
 # What i learned
 
-.Firebase Api
-. Fetch & display data from a remote server
-. Input ,veiw , delete data from firebase
+*Firebase Api
+*Fetch & display data from a remote server
+*Input ,veiw , delete data from firebase
