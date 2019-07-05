@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edit_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/code" />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name" />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edit_brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/brand" />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edit_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/price" />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edit_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/quantity" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/update_button"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="199dp"
+                android:background="@drawable/buttonstyle"
+                android:backgroundTint="@color/colorAccent"
+                android:gravity="center"
+                android:text="update"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/delete_button"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="213dp"
+                android:layout_marginEnd="36dp"
+                android:background="@drawable/buttonstyle"
+                android:backgroundTint="@color/colorAccent"
+                android:gravity="center"
+                android:text="delete"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
