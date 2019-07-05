@@ -7,3 +7,8 @@
 - Firebase Api
 - Fetch & display data from a remote server
 - Input ,veiw , delete data from firebase
+
+
+```
+change google-services.json with your's.
+```
